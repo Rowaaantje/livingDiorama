@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 37e44195335a9ec41a033cf752941e3f
+  - enabled: 1
+    path: Assets/Scenes/Albert/AlbertAR.unity
+    guid: eb492694689d8124c991cd72f6cba05d
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
