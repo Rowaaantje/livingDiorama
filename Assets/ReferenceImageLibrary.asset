@@ -23,7 +23,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4779626890357893623
       m_GuidHigh: 6871321313064532394
-    m_Size: {x: 0, y: 0}
+    m_Size: {x: 0.13, y: 0.13}
     m_SpecifySize: 0
     m_Name: QR_Albert_Scene
     m_Texture: {fileID: 0}
