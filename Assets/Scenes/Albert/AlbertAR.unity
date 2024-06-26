@@ -466,6 +466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ArPrefabs:
   - {fileID: 2810170988387995514, guid: 9d2ec50e5449b0a4d9274d7354191ccf, type: 3}
+  - {fileID: 7846230493084408508, guid: 92e0a010f4fd5234183be72a5e7a55bd, type: 3}
+  - {fileID: 3178507009451595218, guid: 2e0aef75405f71e48a0c69b444372d35, type: 3}
 --- !u!114 &1659859601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,5 +482,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 872792a46573a4c4790aa184d942c587,
     type: 2}
-  m_MaxNumberOfMovingImages: 1
+  m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
