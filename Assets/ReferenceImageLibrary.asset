@@ -25,5 +25,55 @@ MonoBehaviour:
       m_GuidHigh: 6871321313064532394
     m_Size: {x: 0.13, y: 0.13}
     m_SpecifySize: 1
-    m_Name: QR_Albert_Scene
+    m_Name: QR_Albert_Scene 1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5741946594732255549
+      m_GuidHigh: 8512505188283328661
+    m_SerializedTextureGuid:
+      m_GuidLow: 7360073256667606025
+      m_GuidHigh: 16230770564973985384
+    m_Size: {x: 0.11, y: 0.11}
+    m_SpecifySize: 1
+    m_Name: Rowan
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4769236459525579385
+      m_GuidHigh: 10824261861483421839
+    m_SerializedTextureGuid:
+      m_GuidLow: 6013449299826446355
+      m_GuidHigh: 11420189532806214890
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: "Di\xEBgo"
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4999413138964891273
+      m_GuidHigh: 3842588179715047597
+    m_SerializedTextureGuid:
+      m_GuidLow: 3099665464291653412
+      m_GuidHigh: 14741923426584347512
+    m_Size: {x: 0.11, y: 0.11}
+    m_SpecifySize: 1
+    m_Name: Douwe
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4942093063133820811
+      m_GuidHigh: 7198129533924595637
+    m_SerializedTextureGuid:
+      m_GuidLow: 11868258296187415292
+      m_GuidHigh: 9994245222416355658
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Milan
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5573022664644223598
+      m_GuidHigh: 344487625726250684
+    m_SerializedTextureGuid:
+      m_GuidLow: 2153861151140540468
+      m_GuidHigh: 7454481649355597723
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Damian
     m_Texture: {fileID: 0}
