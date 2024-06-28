@@ -19,10 +19,13 @@ public class WaterManager : MonoBehaviour
 		Vector3[] vertices = meshFilter.mesh.vertices;
 		for (int i = 0; i < vertices.Length; i++)
 		{
-			vertices[i].y = WaveManager.instance.GetWaveHeight(transform.position.x + vertices[i].x);
+			// Calculate wave height using Gerstner wave formula
+			float waveHeight = WaveManager.instance.CalculateWaveHeight(vertices[i]);
+			vertices[i].y = waveHeight;
 		}
 
 		meshFilter.mesh.vertices = vertices;
 		meshFilter.mesh.RecalculateNormals();
 	}
+
 }
