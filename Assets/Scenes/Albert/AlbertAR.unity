@@ -123,290 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &169713995
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5789206177891708594, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206177891708594, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206177891708595, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206177891708595, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206177891708595, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067592, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterDrag
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067592, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterAngularDrag
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067592, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: displacementAmount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067592, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: depthBeforeSubmerged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067593, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067593, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067593, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178381067594, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 2800000, guid: ce5f11cd993284c4f9c54f854bdc8c9c, type: 3}
-    - target: {fileID: 5789206178426335440, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterDrag
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335440, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterAngularDrag
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335440, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: displacementAmount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335440, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: depthBeforeSubmerged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335441, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335441, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335441, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178426335442, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 2800000, guid: ce5f11cd993284c4f9c54f854bdc8c9c, type: 3}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187764, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178516187765, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_Name
-      value: BoatDiorama
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770242, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterDrag
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770242, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterAngularDrag
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770242, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: displacementAmount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770242, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: depthBeforeSubmerged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770243, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770243, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770243, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178541770268, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 2800000, guid: ce5f11cd993284c4f9c54f854bdc8c9c, type: 3}
-    - target: {fileID: 5789206178920310465, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterDrag
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310465, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: waterAngularDrag
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310465, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: displacementAmount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310465, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: depthBeforeSubmerged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310466, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310466, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310466, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206178920310467, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 2800000, guid: ce5f11cd993284c4f9c54f854bdc8c9c, type: 3}
-    - target: {fileID: 5789206179177805546, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206179177805546, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5789206179177805546, guid: dbdea79044a70a240b2ec1d7dd8f7247,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dbdea79044a70a240b2ec1d7dd8f7247, type: 3}
 --- !u!1 &422218013
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,3 +484,77 @@ MonoBehaviour:
     type: 2}
   m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
+--- !u!1001 &9185590703474870110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9185590702230178301, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795680, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_Name
+      value: BoatDiorama
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9185590703166795681, guid: dbdea79044a70a240b2ec1d7dd8f7247,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbdea79044a70a240b2ec1d7dd8f7247, type: 3}
