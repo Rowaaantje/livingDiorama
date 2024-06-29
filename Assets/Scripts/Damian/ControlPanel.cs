@@ -1,8 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ControlPanel : MonoBehaviour
+[CreateAssetMenu(fileName = "ControlPanel", menuName = "scripts/ControlPanel", order = 1)]
+public class ControlPanel : ScriptableObject
 {
     [Header("Choose to Show or hide objects")]
     public ObjectState hideShowObject;
@@ -11,18 +11,12 @@ public class ControlPanel : MonoBehaviour
     public ObjectState lightControl;
 
     [Header("Add all lights you want to control")]
-    public Light[] lights;
+    public List<Light> lights = new List<Light>();
 
     [Header("Add all Objects you want to hide or show")]
-    public GameObject[] objects;
+    public List<GameObject> objects = new List<GameObject>();
 
-    private void OnValidate()
-    {
-        UpdateObjectsState();
-        UpdateLightState();
-    }
-
-    void UpdateObjectsState()
+    public void UpdateObjectsState()
     {
         if (objects != null)
         {
@@ -44,7 +38,7 @@ public class ControlPanel : MonoBehaviour
         }
     }
 
-    void UpdateLightState()
+    public void UpdateLightState()
     {
         if (lights != null)
         {
