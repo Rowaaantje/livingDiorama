@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hideShowObject: 1
   lightControl: 1
-  lights: []
+  lights:
+  - {fileID: 0}
   objects:
-  - {fileID: 7846230493084408508, guid: 92e0a010f4fd5234183be72a5e7a55bd, type: 3}
+  - {fileID: 0}

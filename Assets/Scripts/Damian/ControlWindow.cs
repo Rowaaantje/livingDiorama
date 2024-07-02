@@ -6,7 +6,7 @@ public class ControlWindow : EditorWindow
 {
     private ControlPanel controlPanel;
 
-    [MenuItem("Artist proof stuff/Control Window")]
+    [MenuItem("Artist proof stuff/Control Window DOESN'T WORK!!!!")]
     private static void ShowWindow()
     {
         var window = GetWindow<ControlWindow>();
@@ -16,7 +16,6 @@ public class ControlWindow : EditorWindow
 
     private void OnEnable()
     {
-        // Load the ControlPanel ScriptableObject or create one if it doesn't exist
         controlPanel = AssetDatabase.LoadAssetAtPath<ControlPanel>("Assets/Scripts/Damian/ControlPanel.asset");
         if (controlPanel == null)
         {

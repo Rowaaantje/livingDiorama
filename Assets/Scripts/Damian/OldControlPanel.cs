@@ -22,9 +22,11 @@ public class OldControlPanel : MonoBehaviour
     [Header("Object visible")]
     [Tooltip("Every object that are assigned in the list will be shown or hidden")]
     public ObjectState objectVisibility;
+
     [Header("Object color")]
     [Tooltip("Changes the color of the list assigned objects")]
     public Color objectColor = Color.white;
+
     [Space(15)]
 
     [Header("Lights on or off")]
@@ -35,6 +37,13 @@ public class OldControlPanel : MonoBehaviour
     [Tooltip("Changes the color of the list assigned lights")]
     public Color lightColor = Color.white;
 
+    [Header("Animation Controls")]
+    [Tooltip("Toggle animations on or off")]
+    public bool playAnimations = true;
+
+    [Tooltip("Set the speed of the animations")]
+    [Range(0.1f, 3.0f)]
+    public float animationSpeed = 1.0f;
 
     private void OnValidate()
     {
@@ -42,6 +51,8 @@ public class OldControlPanel : MonoBehaviour
         UpdateLightState();
         UpdateObjectColor();
         UpdateLightColor();
+        UpdateAnimationState();
+        UpdateAnimationSpeed();
     }
 
     void UpdateObjectVisibility()
@@ -89,7 +100,7 @@ public class OldControlPanel : MonoBehaviour
                 Renderer renderer = obj.GetComponent<Renderer>();
                 if (renderer != null)
                 {
-                    renderer.material.color = objectColor;
+                    renderer.sharedMaterial.color = objectColor;
                 }
             }
         }
@@ -109,6 +120,36 @@ public class OldControlPanel : MonoBehaviour
         }
     }
 
+    void UpdateAnimationState()
+    {
+        foreach (Animator animator in animators)
+        {
+            if (animator != null)
+            {
+                if (playAnimations)
+                {
+                    animator.speed = animationSpeed;
+                    animator.Play("AnimationName");
+                }
+                else
+                {
+                    animator.speed = 0;
+                }
+            }
+        }
+    }
+
+    void UpdateAnimationSpeed()
+    {
+        foreach (Animator animator in animators)
+        {
+            if (animator != null)
+            {
+                animator.speed = animationSpeed;
+            }
+        }
+    }
+
     public void ChangeObjectColor(Color newColor)
     {
         objectColor = newColor;
@@ -119,23 +160,5 @@ public class OldControlPanel : MonoBehaviour
     {
         lightColor = newColor;
         UpdateLightColor();
-    }
-
-    public void ToggleAnimation(bool startAnimation)
-    {
-        foreach (Animator animator in animators)
-        {
-            if (animator != null)
-            {
-                if (startAnimation)
-                {
-                    animator.Play("AnimationName");
-                }
-                else
-                {
-                    animator.StopPlayback();
-                }
-            }
-        }
     }
 }
